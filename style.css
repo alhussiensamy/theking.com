@@ -1,0 +1,197 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,100,0.5)),url(keka.png.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center; 
+}
+
+.nav-bar
+{
+    background: rgb(0,0,0,0.5);
+    height: 80px;
+}
+
+.logo{
+    margin: 10px 50px;
+    height: 60px; 
+}
+
+.menu{
+    float: right;
+    list-style: none;
+    margin: 20px;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 10px 5px; 
+}
+
+.menu li{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid #fff;
+}
+
+.menu lia:hover{
+    background: #fff;
+    transition: .4s;
+    color: #000;
+}
+.welcome{
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+    color: #fff;
+    top: 160px;
+    
+}
+
+.welcome h1{
+    font-size: 42px;
+    margin: 25px;   
+}
+
+.btn{
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 5px;
+    padding: 7px 10px;
+    text-decoration: none;
+    border: 1px solid #fff;    
+}
+
+.btn1{
+    background: #fff;
+    color: #000;
+}
+
+.btn2{
+    color: #fff;    
+}
+
+.btn2:hover{
+    background: #fff;
+    color: #000;
+    transition: .4s;  
+    
+}
+
+.neon-light{
+    width: 15px;
+    height: 500px;
+    background: transparent;
+    border-radius: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 40px 5px #fff,
+        inset 0 0 20px #fff,
+        0 0 160px 20px #08f,
+        inset 0 0 20px #08f,
+        0 0 320px 30px #08f,
+        inset 0 0 20px #08f;
+    animation: run 5s linear infinite;
+}  
+
+@keyframes run{
+    0%{
+        left: 10%
+        opacity: 0; 
+    }
+    2%{
+        left: 10%
+        opacity: 1; 
+    }
+     4%{
+        left: 10%
+        opacity: 0; 
+    }
+     6%{
+        left: 10%
+        opacity: 1; 
+    }
+     8%{
+        left: 10%
+        opacity: 0; 
+    }
+     10%{
+        left: 10%
+        opacity: 1; 
+    }
+    100%{
+        left: 90%
+        opacity: 1; 
+    }
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
